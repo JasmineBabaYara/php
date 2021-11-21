@@ -1,0 +1,118 @@
+body {
+    background-image: linear-gradient(to right, rgb(86, 86, 204), purple);   
+}
+
+.container{
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 6rem 20rem ;
+}
+
+.title{
+    text-align: center;
+    color: #fff;
+    font-size: 3rem;
+    padding: 1rem;
+}
+
+.user-div {
+    margin: 1rem;
+    width: 50%;
+    align-items: center;
+    display: block;
+}
+
+.user-input {
+    padding: 7px;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    border-radius: 1rem;
+    outline: none;
+    border: 1px solid #fff;
+}
+
+.user-input::placeholder {
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.email-div {
+    margin: 1rem;
+    width: 50%;
+    align-items: center;
+    display: block;
+}
+
+.email-input {
+    padding: 7px;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    border-radius: 1rem;
+    outline: none;
+    border: 1px solid #fff;
+}
+
+.email-input::placeholder {
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.pass-div {
+    margin: 1rem;
+    width: 50%;
+    align-items: center;
+    display: block;
+}
+
+.pass-input {
+    padding: 7px;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    border-radius: 1rem;
+    outline: none;
+    border: 1px solid #fff;
+}
+
+.pass-input::placeholder {
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.confirmpass-div {
+    margin: 1rem;
+    width: 50%;
+    align-items: center;
+    display: block;
+}
+
+.confirmpass-input {
+    padding: 7px;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    border-radius: 1rem;
+    outline: none;
+    border: 1px solid #fff;
+}
+
+.confirmpass-input::placeholder {
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.signup-btn{
+    width: 50%;
+    margin: 3rem;
+    border-radius: 0.5rem;
+    display: block;
+    border: 1px solid #fff;
+}
+
+.signup-btn:hover {
+    background-color: grey;
+}
+
+a {
+    color: #fff;
+}
